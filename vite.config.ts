@@ -4,7 +4,7 @@ import { defineConfig } from "vite";
 
 export default defineConfig({
   plugins: [react()],
-  base: './', // Add this line for GitHub Pages deployment
+  base: '/dap-study/', // GitHub Pages deployment base path
   resolve: {
     alias: {
       "@": path.resolve(__dirname, "./src"),
