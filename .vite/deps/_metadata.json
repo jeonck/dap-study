@@ -1,0 +1,46 @@
+{
+  "hash": "68cd2a4d",
+  "configHash": "41a546fb",
+  "lockfileHash": "1310762d",
+  "browserHash": "99d6d919",
+  "optimized": {
+    "react/jsx-dev-runtime": {
+      "src": "../../node_modules/.pnpm/react@19.2.0/node_modules/react/jsx-dev-runtime.js",
+      "file": "react_jsx-dev-runtime.js",
+      "fileHash": "b0bce97a",
+      "needsInterop": true
+    },
+    "react": {
+      "src": "../../node_modules/.pnpm/react@19.2.0/node_modules/react/index.js",
+      "file": "react.js",
+      "fileHash": "a5df6342",
+      "needsInterop": true
+    },
+    "@radix-ui/react-tabs": {
+      "src": "../../node_modules/.pnpm/@radix-ui+react-tabs@1.1.13_@types+react-dom@19.2.3_@types+react@19.2.6__@types+react@1_865f042350eb43f3338b0fffb33f6246/node_modules/@radix-ui/react-tabs/dist/index.mjs",
+      "file": "@radix-ui_react-tabs.js",
+      "fileHash": "a35f7225",
+      "needsInterop": false
+    },
+    "react-dom/client": {
+      "src": "../../node_modules/.pnpm/react-dom@19.2.0_react@19.2.0/node_modules/react-dom/client.js",
+      "file": "react-dom_client.js",
+      "fileHash": "a9249a35",
+      "needsInterop": true
+    },
+    "lucide-react": {
+      "src": "../../node_modules/.pnpm/lucide-react@0.554.0_react@19.2.0/node_modules/lucide-react/dist/esm/lucide-react.js",
+      "file": "lucide-react.js",
+      "fileHash": "1887dd18",
+      "needsInterop": false
+    }
+  },
+  "chunks": {
+    "chunk-N6ETM74P": {
+      "file": "chunk-N6ETM74P.js"
+    },
+    "chunk-CVMZ763F": {
+      "file": "chunk-CVMZ763F.js"
+    }
+  }
+}
