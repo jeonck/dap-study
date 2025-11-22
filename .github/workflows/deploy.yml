@@ -21,13 +21,17 @@ jobs:
     steps:
     - uses: actions/checkout@v4
 
-    - uses: actions/setup-node@v4
-      with:
-        node-version: '20'
-        cache: 'pnpm' # Changed from 'npm' to 'pnpm'
-        cache-dependency-path: pnpm-lock.yaml # Changed from 'package-lock.json' to 'pnpm-lock.yaml'
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+          cache: 'pnpm' # Changed from 'npm' to 'pnpm'
+          cache-dependency-path: pnpm-lock.yaml # Changed from 'package-lock.json' to 'pnpm-lock.yaml'
 
-    - name: Cache pnpm modules
+      - name: Install pnpm
+        run: npm install -g pnpm
+
+      - name: Cache pnpm modules
       uses: actions/cache@v4
       with:
         path: node_modules
